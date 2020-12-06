@@ -1,0 +1,33 @@
+body{
+    margin:0;
+}
+
+#active {
+    color:red;
+}
+.saw {
+    color:gray;
+}
+/*
+inline elment
+*/
+a {
+    color: black;
+    text-decoration: none;
+}
+/*
+block level element
+*/
+h1 {
+    font-size:45px; text-align: center;
+    border-bottom: 1px solid gray;
+    padding:20px;
+    /*태두리와 태두리 사이 간격*/margin: 0;
+    display: block;
+    }
+ol{
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
